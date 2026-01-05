@@ -1,0 +1,100 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Audio files (too large for git)
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.mp4
+*.mkv
+
+# Large data files
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# API keys and credentials
+.env
+*.key
+*.pem
+credentials.json
+
+# Cookies and sensitive files (DO NOT COMMIT)
+cookies.txt
+*cookies*.txt
+www.youtube.com_cookies.txt
+
+# Scraping logs with URLs (may contain sensitive data)
+completed_log*.csv
+failed_log*.csv
+
+# Output files (optional - include if results are small enough)
+output/diarization_results/*
+output/trained_models/*.pkl
+output/trained_models/*.joblib
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*_temp.csv
+*_TEMP.*
+
+# System files
+.Trash/
+Thumbs.db
+
+# Large model files
+*.bin
+*.pt
+*.pth
+*.h5
+*.hdf5
+
+# Pyannote cache
+~/.cache/torch/
+
+# IDEs
+*.swp
+*.swo
+*~
+
+# R (if using R for any analysis)
+.Rhistory
+.RData
+.Rproj.user
+
+# Large CSV files - keep the important ones
+# rent_control_videos_to_scrape.csv - OK to include (video metadata)
+
+# Specific large directories
+output/temp_working_files/
+
+# Backup files
+*_backup*.csv
